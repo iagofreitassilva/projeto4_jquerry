@@ -27,6 +27,6 @@ button {
 }
 
 ul li a {
-    text-decoration: line-through;
+    text-decoration:none;
     color: #000;
 }
