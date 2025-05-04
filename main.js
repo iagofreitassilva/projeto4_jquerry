@@ -2,10 +2,6 @@ $(document).ready(function() {
     $('header button').click (function() {
         alert("Expandir formulario")
     })
-    
-    $('ul').on('click', 'li',function (e) {
-        $(this).css('text-decoration', 'line-trough');
-    })
 
     $('form').on('submit', function (e) {
         e.preventDefault();
@@ -21,7 +17,11 @@ $(document).ready(function() {
         `).appendTo(novaTarefa);
         $(novaTarefa).appendTo('ul');
         $('#tarefa').val('')
-
     })
+
+    $('ul').on('click', 'li', function(e){
+        $(this).css('text-decoration', 'line-trough');
+    })
+
 })
 
