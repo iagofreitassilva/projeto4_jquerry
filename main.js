@@ -20,7 +20,7 @@ $(document).ready(function() {
     })
 
     $('ul').on('click', 'li', function(e){
-        $(this).css('text-decoration', 'line-trough');
+        $(this).css('text-decoration', 'line-through');
     })
 
 })
